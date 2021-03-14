@@ -76,6 +76,8 @@ public class NewMain {
         
        int x3 = 010;  // dans la base octale
         System.out.println(x3);
+        
+        System.out.println("Modif");
     }
 
 }
