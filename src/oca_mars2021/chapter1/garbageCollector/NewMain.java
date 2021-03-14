@@ -11,10 +11,15 @@ package oca_mars2021.chapter1.garbageCollector;
  */
 public class NewMain {
 
+    
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static  void main(String... x) {  // x se comprte comme un tableau de String
+        Bateau b = new Bateau();
+        System.out.println(x[0]);
+        String name="oca";
+       // System.out.println(_);
         Voiture v0 = new Voiture();
         Voiture v1 = new Voiture();
         //System.out.println("v1 = " + v1);

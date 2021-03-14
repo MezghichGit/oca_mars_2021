@@ -9,7 +9,7 @@ package oca_mars2021.chapter1.garbageCollector;
  *
  * @author amine
  */
-public class Voiture {
+ public class Voiture {
    String pays;
    String immat;
 //
@@ -24,3 +24,6 @@ public class Voiture {
        System.out.println("Destruction de l'objet");
    }
 }
+
+
+ class Bateau {}
