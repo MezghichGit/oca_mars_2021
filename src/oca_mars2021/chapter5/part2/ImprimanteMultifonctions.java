@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package oca_mars2021.chapter5.part2;
+
+/**
+ *
+ * @author amine
+ */
+public class ImprimanteMultifonctions extends ImpLazer implements Imprimate, Scaner,Photocopie{
+
+    @Override
+    public void imprimer() {
+        System.out.println("Print");
+    }
+
+    @Override
+    public void scanner() {
+        System.out.println("Scan");
+    }
+
+    @Override
+    public void photocopier() {
+        System.out.println("Photocopier");
+    }
+    
+}
